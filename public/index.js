@@ -7,4 +7,5 @@
 var app = angular.module('GreenLeavesTCM', []);
 app.controller('IndexPageController', function($scope) {
     $scope.name = "John Doe";
+    $scope.phoneNumber = "020 7228 5599";
 });
